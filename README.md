@@ -35,7 +35,7 @@ Install ros packages
     sudo apt-get install ros-<ros-distro>-nav-core
     sudo apt-get install ros-<ros-distro>-navfn
     sudo apt-get install ros-<ros-distro>-rotate-recovery
-     sudo apt-get install ros-<ros-distro>-octomap
+    sudo apt-get install ros-<ros-distro>-octomap
     sudo apt-get install ros-<ros-distro>-octomap-ros
     sudo apt-get install ros-<ros-distro>-octomap-msgs
     sudo apt-get install ros-<ros-distro>-geographic-msgs
@@ -51,7 +51,7 @@ Install ros packages
 
 Get the vcs repo file:
 
-    wget https://raw.githubusercontent.com/aerialrob/aerial_project/master/project_cfg/vcsFiles/kinetic.repos
+    wget https://raw.githubusercontent.com/AerialRobots/aerial_project/master/project_cfg/vcsFiles/kinetic.repos
 
 Import the repos
 
@@ -66,7 +66,7 @@ Run the python script located in
 
 Get the vcs repo file:
 
-    wget https://raw.githubusercontent.com/aerialrob/aerial_project/master/project_cfg/vcsFiles/melodic.repos
+    wget https://raw.githubusercontent.com/AerialRobots/aerial_project/master/project_cfg/vcsFiles/melodic.repos
 
 Import the repos
 
@@ -76,7 +76,7 @@ Run the python script located in
 
     python3 aerial_project/project_cfg/scripts/melodicUpdates.py
 
-## Compile everything
+### Compile everything
 
 Inside the workspace folder run:
 

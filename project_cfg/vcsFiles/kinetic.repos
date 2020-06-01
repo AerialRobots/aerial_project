@@ -1,7 +1,7 @@
 repositories:
   aerial_project:
     type: git
-    url: https://github.com/aerialrob/aerial_project.git
+    url: https://github.com/AerialRobots/aerial_project
     version: master
   catkin_simple:
     type: git
