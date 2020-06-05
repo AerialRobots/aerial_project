@@ -19,7 +19,6 @@ if __name__ == '__main__':
     destPath = catkin_src_path / "husky/husky_control/config"
     shutil.copyfile(str((originPath / file).absolute()), str((destPath / file).absolute()))
 
-<<<<<<< HEAD
     file = "spawn_husky.launch"
     originPath = catkin_src_path / "aerial_project/project_cfg/Husky_updateFiles"
     destPath = catkin_src_path / "husky/husky_gazebo/launch"
@@ -30,8 +29,6 @@ if __name__ == '__main__':
     destPath = catkin_src_path / "husky/husky_control/launch"
     shutil.copyfile(str((originPath / file).absolute()), str((destPath / file).absolute()))
 
-=======
->>>>>>> 4c2befa64f98a75ffbab3c49dbde650e3de1221b
     # RotorS files
     file = "component_snippets.xacro"
     originPath = catkin_src_path / "aerial_project/project_cfg/rotorS_updateFiles"
