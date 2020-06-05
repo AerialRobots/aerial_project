@@ -26,7 +26,7 @@ repositories:
   husky:
     type: git
     url: https://github.com/husky/husky.git
-    version: melodic-devel
+    version: 68a2751fda48cd3822f761d2c9b9e6d73948ba11
   interactive_marker_twist_server:
     type: git
     url: https://github.com/ros-visualization/interactive_marker_twist_server.git
