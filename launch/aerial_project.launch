@@ -76,8 +76,11 @@
     </group>
     
     <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+<<<<<<< HEAD
+=======
     <node pkg="tf" type="static_transform_publisher" name="world_odom_broadcaster" args="0 0 0 0 0 0 1 world odom 100" />
     <!-- <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" /> -->
+>>>>>>> 4c2befa64f98a75ffbab3c49dbde650e3de1221b
   </group>  
 
 
@@ -91,15 +94,26 @@
      
     </include>
 
+<<<<<<< HEAD
+  <group ns="$(arg husky_name)">
+=======
+>>>>>>> 4c2befa64f98a75ffbab3c49dbde650e3de1221b
     <node name="husky_node" pkg="aerial_project" type="husky_node">
         <param name="mission_file" value="$(arg husky_mission_file)" /> 
         <param name="thr_rotation_error" value="0.1" /> 
         <param name="rotation_speed" value="1.0" /> 
         <param name="linear_speed" value="2.0" /> 
     </node> 
+<<<<<<< HEAD
+  </group>
+  
+
+   <node pkg="tf" type="static_transform_publisher" name="world_husky_broadcaster" args="-20 -15 0 0 0 0 1 world husky_odom 100" />
+=======
   
 
    <node pkg="tf" type="static_transform_publisher" name="world_husky_broadcaster" args="-20 -15 0 0 0 0 1 base_link world 100" />
+>>>>>>> 4c2befa64f98a75ffbab3c49dbde650e3de1221b
 
   <!-- Mapping -->
    <include file="$(find aerial_project)/launch/mapping.launch"/> 
