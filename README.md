@@ -41,7 +41,6 @@ Install ros packages
     sudo apt-get install ros-${ROS_DISTRO}-geographic-msgs
     sudo apt-get install ros-${ROS_DISTRO}-mavlink
     sudo apt-get install ros-${ROS_DISTRO}-robot-localization
-    sudo apt-get install ros-${ROS_DISTRO}-geographic
     
     sudo apt-get install libgeographic-dev
     sudo apt-get install libgoogle-glog-dev
