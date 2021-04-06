@@ -22,25 +22,26 @@ Eurecat UVIC master repository for final aerial project
 ### Ros packages (Maybe not complete)
 Install ros packages
 
-    sudo apt-get install ros-<ros-distro>-lms1xx
-    sudo apt-get install ros-<ros-distro>-controller-manager
-    sudo apt-get install ros-<ros-distro>-base-local-planner
-    sudo apt-get install ros-<ros-distro>-dwa-local-planner  
-    sudo apt-get install ros-<ros-distro>-joint-state-controller  
-    sudo apt-get install ros-<ros-distro>-gazebo-ros-control  
-    sudo apt-get install ros-<ros-distro>-diff-drive-controller  
-    sudo apt-get install ros-<ros-distro>-move-base
-    sudo apt-get install ros-<ros-distro>-twist-mux
-    sudo apt-get install ros-<ros-distro>-clear-costmap-recovery
-    sudo apt-get install ros-<ros-distro>-nav-core
-    sudo apt-get install ros-<ros-distro>-navfn
-    sudo apt-get install ros-<ros-distro>-rotate-recovery
-    sudo apt-get install ros-<ros-distro>-octomap
-    sudo apt-get install ros-<ros-distro>-octomap-ros
-    sudo apt-get install ros-<ros-distro>-octomap-msgs
-    sudo apt-get install ros-<ros-distro>-geographic-msgs
-    sudo apt-get install ros-<ros-distro>-mavlink
-    sudo apt-get install ros-<ros-distro>-robot-localization
+    sudo apt-get install ros-${ROS_DISTRO}-lms1xx
+    sudo apt-get install ros-${ROS_DISTRO}-controller-manager
+    sudo apt-get install ros-${ROS_DISTRO}-base-local-planner
+    sudo apt-get install ros-${ROS_DISTRO}-dwa-local-planner  
+    sudo apt-get install ros-${ROS_DISTRO}-joint-state-controller  
+    sudo apt-get install ros-${ROS_DISTRO}-gazebo-ros-control  
+    sudo apt-get install ros-${ROS_DISTRO}-diff-drive-controller  
+    sudo apt-get install ros-${ROS_DISTRO}-move-base
+    sudo apt-get install ros-${ROS_DISTRO}-twist-mux
+    sudo apt-get install ros-${ROS_DISTRO}-clear-costmap-recovery
+    sudo apt-get install ros-${ROS_DISTRO}-nav-core
+    sudo apt-get install ros-${ROS_DISTRO}-navfn
+    sudo apt-get install ros-${ROS_DISTRO}-rotate-recovery
+    sudo apt-get install ros-${ROS_DISTRO}-octomap
+    sudo apt-get install ros-${ROS_DISTRO}-octomap-ros
+    sudo apt-get install ros-${ROS_DISTRO}>-octomap-msgs
+    sudo apt-get install ros-${ROS_DISTRO}-geographic-msgs
+    sudo apt-get install ros-${ROS_DISTRO}-mavlink
+    sudo apt-get install ros-${ROS_DISTRO}-robot-localization
+    sudo apt-get install ros-${ROS_DISTRO}-geographic
     
     sudo apt-get install libgeographic-dev
     sudo apt-get install libgoogle-glog-dev
